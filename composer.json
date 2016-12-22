@@ -1,5 +1,5 @@
 {
-    "name": "xiang1993/wechatapp_signature",
+    "name": "xiang1993/wechatapp",
     "description": "微信小程序签名加密",
     "type": "library",
     "require": {
