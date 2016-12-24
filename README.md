@@ -3,12 +3,12 @@
 ## 使用方法:
 
 - 安装: 
-```
+```shell
 conposer update
 ```
 
 - 使用:
-```
+```php
 <?php
 require "vendor/autoload.php";
 use Xiang\WechatApp\Decode\WXBizDataCrypt;
