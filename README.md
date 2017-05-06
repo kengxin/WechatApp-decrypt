@@ -4,7 +4,7 @@
 
 - 安装: 
 ```shell
-conposer require xiang1993/wechatapp-decrypt
+composer require xiang1993/wechatapp-decrypt
 ```
 
 - 使用方法:
