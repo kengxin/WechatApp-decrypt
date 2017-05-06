@@ -7,11 +7,13 @@
 conposer update
 ```
 
-- 使用:
+- 使用方法:
 ```php
 <?php
 require "vendor/autoload.php";
+
 use Xiang\WechatApp\Decode\WXBizDataCrypt;
+
 $appid = 'wx4f4bc4dec97d474b';
 $sessionKey = 'tiihtNczf5v6AKRyjwEUhQ==';
 $encryptedData="CiyLU1Aw2KjvrjMdj8YKliAjtP4gsMZM
@@ -31,9 +33,10 @@ $encryptedData="CiyLU1Aw2KjvrjMdj8YKliAjtP4gsMZM
                 oKlaRv85IfVunYzO0IKXsyl7JCUjCpoG
                 20f0a04COwfneQAGGwd5oa+T8yO5hzuy
                 Db/XcxxmK01EpqOyuxINew==";
+                
 $iv = 'r7BXXKkLb8qrSNn05n0qiA==';
 $pc = new WXBizDataCrypt($appid, $sessionKey);
-$errCode = $pc->decryptData($encryptedData, $iv, $data );
+$errCode = $pc->decryptData($encryptedData, $iv, $data);
 if ($errCode == 0) {
      print($data . "\n");
 } else {
