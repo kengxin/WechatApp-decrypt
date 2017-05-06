@@ -1,10 +1,10 @@
-# WechatApp
+# WechatApp-decrypt
 微信小程序库--签名解密
 ## 使用方法:
 
 - 安装: 
 ```shell
-conposer update
+conposer require xiang1993/wechatapp-decrypt
 ```
 
 - 使用方法:
