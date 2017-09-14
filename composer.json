@@ -1,6 +1,6 @@
 {
-    "name": "xiang1993/wechatapp-decrypt",
-    "description": "微信小程序签名加密",
+    "name": "xiaoxin/wechatapp-decrypt",
+    "description": "微信小程序签名加密-修改版本",
     "type": "library",
     "require": {
         "php": ">5.4"
@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "axf",
-            "email": "2792938834@qq.com"
+            "email": "137105161@qq.com"
         }
     ],
     "autoload": {
